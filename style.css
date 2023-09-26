@@ -1,0 +1,48 @@
+.text > h3 {
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text > h1 {
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
+.middle > input {
+  display: flex;
+  padding: 12px 189px 13px 14px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #ebeff2;
+  width: 100px;
+}
+.middle > button {
+  display: flex;
+  width: 88px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #20eeb0;
+}
+.middle {
+  display: flex;
+  gap: 30px;
+}
